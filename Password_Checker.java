@@ -25,12 +25,13 @@ public class Password_Checker {
 	 {
 		if(ch[i]>='a'&&ch[i]<='z')
 		{	
-			uppercase++;
+			lowercase++;
 		}
 		else if(ch[i]>='A'&&ch[i]<='Z')
 		{
 			//System.out.print(ch[i]);
-			lowercase++;
+			
+			uppercase++;
 		}
 		else if(ch[i]>='0'&&ch[i]<='9')
 		{
